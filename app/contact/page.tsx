@@ -74,16 +74,11 @@ export default function Contact() {
                 <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
                 <Card>
                   <CardHeader>
-                    <CardTitle>CognisentAI Headquarters</CardTitle>
+                    <CardTitle>Email</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <CardDescription>
-                      <div className="space-y-2">
-                        <div>4725 Sheppard Ave. East,</div>
-                        <div>Toronto, ON M1S 5B2</div>
-                        <div>Canada</div>
-                        <div>Email: info@cognisentai.com</div>
-                      </div>
+                      <div>info@congnisentai.com</div>
                     </CardDescription>
                   </CardContent>
                 </Card>
