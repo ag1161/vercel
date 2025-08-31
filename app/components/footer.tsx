@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Facebook, Twitter, LinkedinIcon as LinkedIn, Instagram } from "lucide-react"
+import { Facebook, Twitter, Linkedin as LinkedIn, Instagram } from "lucide-react"
 import Image from "next/image"
 
 export function Footer() {
@@ -12,13 +12,15 @@ export function Footer() {
           <div className="space-y-8 xl:col-span-1">
             <Link href="/" className="flex items-center">
               <span className="sr-only">CognisentAI</span>
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Cognisent_Logo-FRG7ZmlQJEV8MciDH6fadeHR9DKvg5.png"
-                alt="CognisentAI Logo"
-                width={300}
-                height={60}
-                className="h-16 w-auto"
-              />
+              <div className="bg-white p-3 rounded-lg">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Cognisent_Logo-FRG7ZmlQJEV8MciDH6fadeHR9DKvg5.png"
+                  alt="CognisentAI Logo"
+                  width={300}
+                  height={60}
+                  className="h-12 w-auto"
+                />
+              </div>
             </Link>
             <p className="text-gray-300 text-base">Empowering businesses with vertical AI solutions.</p>
             <div className="flex space-x-6">
